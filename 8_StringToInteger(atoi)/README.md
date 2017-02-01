@@ -18,4 +18,4 @@ We need to handle four cases:
 3. overflow
 4. invalid input
 
-We should always check `**i < len**` otherwise index may be out of range.
+We should always check `i < len` otherwise index may be out of range.
